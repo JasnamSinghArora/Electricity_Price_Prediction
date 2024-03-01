@@ -61,11 +61,15 @@ predictions_df_2018 = pd.DataFrame({
     'Date': dates_2018,
     'Predicted Average Price (EUR/MWh)': predictions_2018
 })
+
+# Display the CSV file
 predictions_df_2018.to_csv('predicted_prices_2018.csv', index=False)
 print(f"CSV file saved: ./predicted_prices_2018.csv")
 
+# Define path to desktop
 desktop_path = '/Users/jasnamsingharora/Desktop/'
 csv_file_path = os.path.join(desktop_path, 'predicted_prices_2018.csv')
 
+# Save results to Desktop
 predictions_df_2018.to_csv(csv_file_path, index=False)
 print(f"CSV file saved: {csv_file_path}")
