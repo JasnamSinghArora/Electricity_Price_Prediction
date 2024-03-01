@@ -22,7 +22,9 @@ Saved the model's 2018 price predictions to a CSV file, making it easy to share 
 Required Prequisities:-
 
 1)Python 3.8 or higher
+
 2)pandas
+
 3)scikit-learn
 
 Usage:-
