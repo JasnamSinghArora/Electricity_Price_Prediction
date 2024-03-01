@@ -28,5 +28,7 @@ Required Prequisities:-
 Usage:-
 
 1)Make sure to download the Electricity_Price_Prediction Folder and save it on your desktop.
+
 2)Change the username while defining the file location.
+
 3)Change the username when defining the desktop path for the CSV file to be saved.
